@@ -1,13 +1,17 @@
 package Validation;
-import java.util.ArrayList;
 
 public class ValidateID {
-    public static boolean main(String args)
-    {
-                Person person = FindingGender(args);
-                int remainder = RemainderCalculation(person.getId());
-                person.setValid(remainder == Character.getNumericValue(person.getId().charAt(10)));
-                return person.isValid();
+        public static void main(String[] args)
+        {
+
+        }
+
+        public static boolean IDValidation(String id)
+        {
+            Person person = FindingGender(id);
+            int remainder = RemainderCalculation(person.getId());
+            person.setValid(remainder == Character.getNumericValue(person.getId().charAt(10)));
+            return person.isValid();
         }
 
         public static int RemainderCalculation(String id)
