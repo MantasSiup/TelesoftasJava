@@ -9,5 +9,8 @@
         <module name="National_ID" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="National_ID" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
