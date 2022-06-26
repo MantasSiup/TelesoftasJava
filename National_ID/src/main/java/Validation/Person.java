@@ -3,17 +3,6 @@ package Validation;
 public class Person {
     private String id;
     private String date;
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "id='" + id + '\'' +
-                ", date='" + date + '\'' +
-                ", gender='" + gender + '\'' +
-                ", isValid=" + isValid +
-                '}';
-    }
-
     private String gender;
     private boolean isValid;
 
@@ -30,7 +19,15 @@ public class Person {
         this.gender = "Unknown gender";
     }
 
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id='" + id + '\'' +
+                ", date='" + date + '\'' +
+                ", gender='" + gender + '\'' +
+                ", isValid=" + isValid +
+                '}';
+    }
 
     public String getId() {
         return id;
@@ -46,5 +43,9 @@ public class Person {
 
     public void setValid(boolean valid) {
         isValid = valid;
+    }
+
+    public String getGender() {
+        return gender;
     }
 }
