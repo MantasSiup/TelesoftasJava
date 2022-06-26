@@ -2,21 +2,12 @@ package Validation;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class ValidateIDTest {
 
-    @Test
-    public void testMain() {
-        ValidateID tester = new ValidateID();
-
-        assertEquals("The same control digit means id is valid", true, tester.main("34409157850"));
-        assertEquals("The same control digit means id is valid", true, tester.main("56701126655"));
-        assertEquals("The same control digit means id is valid", true, tester.main("45611139673"));
-        assertEquals("The same control digit means id is valid", true, tester.main("63601079885"));
-        assertEquals("The same control digit means id is valid", true, tester.main("35112013388"));
-        assertEquals("The same control digit means id is valid", true, tester.main("54607281217"));
-    }
 
     @Test
     public void testRemainderCalculation() {
@@ -29,13 +20,25 @@ public class ValidateIDTest {
     @Test
     public void testFindingGender() {
         ValidateID tester = new ValidateID();
-        Person male = new Person("", ",", "male");
-        assertEquals("3 and 5 must be a male", male.getGender(), tester.FindingGender("34409157850").getGender());
-        assertEquals("3 and 5 must be a male", male.getGender(), tester.FindingGender("54409157850").getGender());
 
-        Person female = new Person("", ",", "female");
-        assertEquals("4 and 6 must be a female", female.getGender(), tester.FindingGender("44104154428").getGender());
-        assertEquals("4 and 6 must be a female", female.getGender(), tester.FindingGender("64104154428").getGender());
+        for (String s1 : Arrays.asList("34409157850", "54409157850, 38601138179", "36007148458","52101021310"))
+            assertEquals("3 and 5 must be a male", "male", tester.FindingGender(s1).getGender());
 
+
+        for (String s : Arrays.asList("44104154428", "64104154428", "40412136548", "42405048129", "66805096280", "68701253995", "48502033998"))
+            assertEquals("4 and 6 must be a female", "female", tester.FindingGender(s).getGender());
+
+    }
+
+    @Test
+    public void testIDValidation() {
+        ValidateID tester = new ValidateID();
+
+        assertTrue("The same control digit means id is valid", tester.IDValidation("34409157850"));
+        assertTrue("The same control digit means id is valid", tester.IDValidation("56701126655"));
+        assertTrue("The same control digit means id is valid", tester.IDValidation("45611139673"));
+        assertTrue("The same control digit means id is valid", tester.IDValidation("63601079885"));
+        assertTrue("The same control digit means id is valid", tester.IDValidation("35112013388"));
+        assertTrue("The same control digit means id is valid", tester.IDValidation("54607281217"));
     }
 }

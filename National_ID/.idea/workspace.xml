@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/Validation/ValidateIDTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Validation/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validation/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Validation/ValidateID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validation/ValidateID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validation/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validation/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validation/ValidateID.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validation/ValidateID.class" afterDir="false" />
-    </list>
+    <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="Fixed main and added a new boolean for ID validation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,11 +87,10 @@
       <recent name="Validation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidateIDTest.testMain">
+  <component name="RunManager" selected="JUnit.ValidateIDTest.testFindingGender">
     <configuration name="ValidateID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Validation.ValidateID" />
       <module name="National_ID" />
-      <option name="PROGRAM_PARAMETERS" value="58102042515 34409157850 44104154428 64307016194 55602038344" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Validation.*" />
@@ -109,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateIDTest.findingGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidateIDTest.testFindingGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="National_ID" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +111,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Validation" />
       <option name="MAIN_CLASS_NAME" value="Validation.ValidateIDTest" />
-      <option name="METHOD_NAME" value="findingGender" />
+      <option name="METHOD_NAME" value="testFindingGender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateIDTest.testIDValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="National_ID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Validation" />
+      <option name="MAIN_CLASS_NAME" value="Validation.ValidateIDTest" />
+      <option name="METHOD_NAME" value="testIDValidation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,36 +165,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateIDTest.testfindingGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="National_ID" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Validation" />
-      <option name="MAIN_CLASS_NAME" value="Validation.ValidateIDTest" />
-      <option name="METHOD_NAME" value="testfindingGender" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ValidateID" />
-      <item itemvalue="JUnit.ValidateIDTest.findingGender" />
-      <item itemvalue="JUnit.ValidateIDTest.testfindingGender" />
       <item itemvalue="JUnit.ValidateIDTest.testRemainderCalculation" />
       <item itemvalue="JUnit.ValidateIDTest.testMain" />
+      <item itemvalue="JUnit.ValidateIDTest.testIDValidation" />
+      <item itemvalue="JUnit.ValidateIDTest.testFindingGender" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidateIDTest.testFindingGender" />
+        <item itemvalue="Application.ValidateID" />
+        <item itemvalue="JUnit.ValidateIDTest.testIDValidation" />
         <item itemvalue="JUnit.ValidateIDTest.testMain" />
         <item itemvalue="JUnit.ValidateIDTest.testRemainderCalculation" />
-        <item itemvalue="Application.ValidateID" />
-        <item itemvalue="JUnit.ValidateIDTest.testfindingGender" />
-        <item itemvalue="JUnit.ValidateIDTest.findingGender" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +191,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656238660492</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed main and added a new boolean for ID validation">
+      <created>1656246376480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656246376480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,5 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fixed main and added a new boolean for ID validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed main and added a new boolean for ID validation" />
   </component>
 </project>
