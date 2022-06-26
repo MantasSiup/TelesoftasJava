@@ -40,5 +40,6 @@ public class ValidateIDTest {
         assertTrue("The same control digit means id is valid", tester.IDValidation("63601079885"));
         assertTrue("The same control digit means id is valid", tester.IDValidation("35112013388"));
         assertTrue("The same control digit means id is valid", tester.IDValidation("54607281217"));
+
     }
 }
