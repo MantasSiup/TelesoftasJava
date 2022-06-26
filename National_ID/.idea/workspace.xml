@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="National_ID:jar2" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="Fixed main and added a new boolean for ID validation">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/National_ID_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/National_ID_jar2/Validation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/src/lib/Validation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/src/main/java/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/src/main/java/InOutUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/src/main/resources/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/target/classes/InOutUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/target/classes/in.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Validation/ValidateIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Validation/ValidateIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Validation/ValidateID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validation/ValidateID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validation/ValidateID.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validation/ValidateID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Validation/ValidateIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Validation/ValidateIDTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +103,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -89,7 +114,7 @@
       <recent name="Validation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidateID">
+  <component name="RunManager" selected="JUnit.ValidateIDTest.testIDValidation">
     <configuration name="ValidateID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Validation.ValidateID" />
       <module name="National_ID" />
@@ -151,36 +176,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateIDTest.testRemainderCalculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="National_ID" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Validation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Validation" />
-      <option name="MAIN_CLASS_NAME" value="Validation.ValidateIDTest" />
-      <option name="METHOD_NAME" value="testRemainderCalculation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="net.codejava.national.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/National_ID_jar2/net.codejava.national.jar" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.ValidateID" />
-      <item itemvalue="JUnit.ValidateIDTest.testRemainderCalculation" />
       <item itemvalue="JUnit.ValidateIDTest.testMain" />
       <item itemvalue="JUnit.ValidateIDTest.testIDValidation" />
       <item itemvalue="JUnit.ValidateIDTest.testFindingGender" />
+      <item itemvalue="JAR Application.net.codejava.national.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidateIDTest.testIDValidation" />
+        <item itemvalue="JAR Application.net.codejava.national.jar" />
         <item itemvalue="Application.ValidateID" />
         <item itemvalue="JUnit.ValidateIDTest.testFindingGender" />
-        <item itemvalue="JUnit.ValidateIDTest.testIDValidation" />
         <item itemvalue="JUnit.ValidateIDTest.testMain" />
-        <item itemvalue="JUnit.ValidateIDTest.testRemainderCalculation" />
       </list>
     </recent_temporary>
   </component>
@@ -218,5 +231,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fixed main and added a new boolean for ID validation" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed main and added a new boolean for ID validation" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
