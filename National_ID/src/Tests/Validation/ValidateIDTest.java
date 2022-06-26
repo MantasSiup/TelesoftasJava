@@ -21,7 +21,7 @@ public class ValidateIDTest {
     public void testFindingGender() {
         ValidateID tester = new ValidateID();
 
-        for (String s1 : Arrays.asList("34409157850", "54409157850, 38601138179", "36007148458","52101021310"))
+        for (String s1 : Arrays.asList("34409157850", "54409157850","38601138179", "36007148458","52101021310"))
             assertEquals("3 and 5 must be a male", "male", tester.FindingGender(s1).getGender());
 
 
