@@ -9,6 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="Fixed main and added a new boolean for ID validation">
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/National_ID_jar2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/National_ID_jar2/Validation.jar" afterDir="false" />
@@ -31,6 +32,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/Validation/ValidateID.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validation/ValidateID.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Validation/ValidateIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Validation/ValidateIDTest.class" afterDir="false" />
     </list>
+=======
+    <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="Fixed main and added a new boolean for ID validation" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
