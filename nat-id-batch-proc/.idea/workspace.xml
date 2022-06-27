@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46bf937a-c4cd-4a1f-8e33-57c6951a88d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../National_ID/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../National_ID/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../National_ID/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../National_ID/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="46bf937a-c4cd-4a1f-8e33-57c6951a88d5" name="Changes" comment="Updated batch processing files">
+      <change afterPath="$PROJECT_DIR$/../National_ID/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../National_ID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../National_ID/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,5 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated batch processing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated batch processing files" />
   </component>
 </project>

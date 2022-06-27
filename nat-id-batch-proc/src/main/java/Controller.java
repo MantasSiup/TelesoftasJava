@@ -26,10 +26,8 @@ public class Controller implements Runnable{
     @Override
     public void run() {
         ArrayList<Person> people = InOutUtils.readFromTxt("src/main/resources/in.txt");
-
         ArrayList<Person> filtered = Utilities.filter(people, "male", "female");
         ArrayList<Person> Sorted = Utilities.sorting(people);
-
         System.out.println("Hello " + (allCaps ? name.toUpperCase() : name));
     }
 }
