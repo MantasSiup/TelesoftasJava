@@ -14,8 +14,8 @@ public class InOutUtils {
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
-                Person person = validateID.FindingGender(data);
-                person.setValid(validateID.IDValidation(data));
+                Person person = validateID.constructingPerson(data);
+                person.setValid(validateID.idValidation(data));
                 people.add(person);
             }
             myReader.close();
