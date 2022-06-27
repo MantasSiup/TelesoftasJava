@@ -17,16 +17,20 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/Tests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="TestNG.ValidateIDTest">
+  <component name="RunManager" selected="JUnit.ValidateIDTest (1)">
     <configuration name="ValidateID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Validation.ValidateID" />
       <module name="National_ID" />
@@ -36,6 +40,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateIDTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="National_ID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Validation" />
+      <option name="MAIN_CLASS_NAME" value="Validation.ValidateIDTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,13 +110,15 @@
       <item itemvalue="JUnit.ValidateIDTest" />
       <item itemvalue="JUnit.Validation in National_ID" />
       <item itemvalue="TestNG.ValidateIDTest" />
+      <item itemvalue="JUnit.ValidateIDTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidateIDTest (1)" />
+        <item itemvalue="Application.ValidateID" />
         <item itemvalue="TestNG.ValidateIDTest" />
         <item itemvalue="JUnit.ValidateIDTest" />
         <item itemvalue="JUnit.Validation in National_ID" />
-        <item itemvalue="Application.ValidateID" />
       </list>
     </recent_temporary>
   </component>
@@ -114,31 +135,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/Validation/ValidateIDTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/Validation/ValidateIDTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/Validation/ValidateIDTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/Validation/ValidateIDTest.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
