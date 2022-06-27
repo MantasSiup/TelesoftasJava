@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="Fixed main and added a new boolean for ID validation">
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Validation/ValidateIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Validation/ValidateIDTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="4f78fb5b-c574-46a9-b027-097c82b0273d" name="Changes" comment="Fixed main and added a new boolean for ID validation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,21 +17,26 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\National_ID\src\main\java\Validation" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/Tests" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="JUnit.ValidateIDTest">
+  <component name="RunManager" selected="JUnit.ValidateIDTest (1)">
     <configuration name="ValidateID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Validation.ValidateID" />
       <module name="National_ID" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Validation.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -41,7 +44,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidateIDTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="National_ID" />
       <extension name="coverage">
         <pattern>
@@ -56,14 +59,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidateIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="National_ID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ValidateIDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Validation in National_ID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="National_ID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Validation" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateIDTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="National_ID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Validation" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ValidateIDTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ValidateID" />
       <item itemvalue="JUnit.ValidateIDTest" />
+      <item itemvalue="JUnit.Validation in National_ID" />
+      <item itemvalue="JUnit.ValidateIDTest (1)" />
+      <item itemvalue="TestNG.ValidateIDTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidateIDTest" />
+        <item itemvalue="JUnit.ValidateIDTest (1)" />
         <item itemvalue="Application.ValidateID" />
+        <item itemvalue="TestNG.ValidateIDTest" />
+        <item itemvalue="JUnit.ValidateIDTest" />
+        <item itemvalue="JUnit.Validation in National_ID" />
       </list>
     </recent_temporary>
   </component>

@@ -9,5 +9,8 @@
         <module name="nat-id-batch-proc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nat-id-batch-proc" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

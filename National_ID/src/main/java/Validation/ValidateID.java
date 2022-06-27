@@ -6,15 +6,20 @@ public class ValidateID {
 
         }
 
-        public static boolean IDValidation(String id)
+        public boolean IDValidation(String id)
         {
             Person person = FindingGender(id);
-            int remainder = RemainderCalculation(person.getId());
-            person.setValid(remainder == Character.getNumericValue(person.getId().charAt(10)));
+            if (person.getId().length() != 11)
+                person.setValid(false);
+            else {
+                int remainder = RemainderCalculation(person.getId());
+                person.setValid(remainder == Character.getNumericValue(person.getId().charAt(10)));
+
+            }
             return person.isValid();
         }
 
-        public static int RemainderCalculation(String id)
+        public int RemainderCalculation(String id)
         {
             int sum = 0;
             for (int i = 1; i <= 9; i++) {
@@ -37,14 +42,20 @@ public class ValidateID {
             return remainder;
         }
 
-        public static Person FindingGender(String id)
+        public Person FindingGender(String id)
         {
             Person person = new Person();
-            if (id.charAt(0) == '3' || id.charAt(0) == '5') {
-                person = new Person(id, id.substring(1, 7), "male");
-
-            } else if (id.charAt(0) == '4' || id.charAt(0) == '6') {
-                person = new Person(id, id.substring(1, 7), "female");
+            if (id.length() != 11)
+            {
+                person.setId(id);
+                person.setValid(false);
+            }
+                else
+            {
+                switch (id.charAt(0)) {
+                    case '3', '5' -> person = new Person(id, id.substring(1, 7), "male");
+                    case '4', '6' -> person = new Person(id, id.substring(1, 7), "female");
+                }
             }
             return person;
         }
