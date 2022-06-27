@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/National_ID.iml" filepath="$PROJECT_DIR$/National_ID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nat-id-batch-proc.iml" filepath="$PROJECT_DIR$/nat-id-batch-proc.iml" />
     </modules>
   </component>
 </project>
