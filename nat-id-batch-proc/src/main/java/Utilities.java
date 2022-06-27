@@ -24,4 +24,10 @@ public class Utilities {
                 .collect(Collectors.toCollection(ArrayList::new));
         return sortedList;
     }
+    public static ArrayList<Person> sortingByDate(ArrayList<Person> people)
+    {
+        ArrayList<Person> sortedList = people.stream().sorted(Comparator.comparing(d -> d.getDate()))
+                .collect(Collectors.toCollection(ArrayList::new));
+        return sortedList;
+    }
 }
