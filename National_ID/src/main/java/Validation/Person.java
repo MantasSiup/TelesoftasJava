@@ -2,12 +2,12 @@ package Validation;
 
 public class Person {
     private String id;
-    private String date;
+    private int date;
     private String gender;
     private boolean isValid;
 
 
-    public Person(String id, String date, String gender) {
+    public Person(String id, int date, String gender) {
         this.id = id;
         this.date = date;
         this.gender = gender;
@@ -15,7 +15,6 @@ public class Person {
 
     public Person() {
         this.id = "Unknown id";
-        this.date = "Unknown date";
         this.gender = "Unknown gender";
     }
 
@@ -47,5 +46,13 @@ public class Person {
 
     public String getGender() {
         return gender;
+    }
+
+    public int getDate() {
+        return date;
+    }
+
+    public void setDate(int date) {
+        this.date = date;
     }
 }
