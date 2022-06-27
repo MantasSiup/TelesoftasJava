@@ -64,6 +64,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -96,6 +98,10 @@
   </component>
   <component name="RunManager" selected="Application.ValidateID">
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\National_ID\src\main\java\Validation" />
@@ -228,11 +234,17 @@
     </option>
   </component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fixed main and added a new boolean for ID validation" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed main and added a new boolean for ID validation" />
   </component>
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 </project>
