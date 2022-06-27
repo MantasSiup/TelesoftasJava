@@ -1,5 +1,4 @@
 import Validation.Person;
-import Validation.ValidateID;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Parameters;
@@ -27,7 +26,12 @@ public class Controller implements Runnable{
     @Override
     public void run() {
         ArrayList<Person> people = InOutUtils.readFromTxt("src/main/resources/in.txt");
+<<<<<<< Updated upstream
 
+=======
+        ArrayList<Person> filtered = Utilities.filter(people, "male", "female");
+        ArrayList<Person> Sorted = Utilities.sorting(people);
+>>>>>>> Stashed changes
         System.out.println("Hello " + (allCaps ? name.toUpperCase() : name));
     }
 }

@@ -63,6 +63,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,6 +95,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ValidateID">
+=======
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\National_ID\src\main\java\Validation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ValidateIDTest">
+>>>>>>> Stashed changes
     <configuration name="ValidateID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Validation.ValidateID" />
       <module name="National_ID" />
@@ -218,9 +227,12 @@
       </map>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fixed main and added a new boolean for ID validation" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed main and added a new boolean for ID validation" />
   </component>
+=======
+>>>>>>> Stashed changes
 </project>
