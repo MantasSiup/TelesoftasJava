@@ -1,25 +1,27 @@
 package Validation;
 
+import java.time.LocalDateTime;
+
 public class ValidateID {
         public static void main(String[] args)
         {
 
         }
 
-        public boolean IDValidation(String id)
+        public boolean idValidation(String id)
         {
-            Person person = FindingGender(id);
+            Person person = constructingPerson(id);
             if (person.getId().length() != 11)
                 person.setValid(false);
             else {
-                int remainder = RemainderCalculation(person.getId());
+                int remainder = remainderCalculation(person.getId());
                 person.setValid(remainder == Character.getNumericValue(person.getId().charAt(10)));
 
             }
             return person.isValid();
         }
 
-        public int RemainderCalculation(String id)
+        public int remainderCalculation(String id)
         {
             int sum = 0;
             for (int i = 1; i <= 9; i++) {
@@ -42,9 +44,10 @@ public class ValidateID {
             return remainder;
         }
 
-        public Person FindingGender(String id)
+        public Person constructingPerson(String id)
         {
             Person person = new Person();
+            int date;
             if (id.length() != 11)
             {
                 person.setId(id);
@@ -52,9 +55,13 @@ public class ValidateID {
             }
                 else
             {
+                if (Integer.parseInt(id.substring(1,7)) > 220600)
+                    date = Integer.parseInt(id.substring(1,7)) + 19000000;
+                else
+                    date = Integer.parseInt(id.substring(1,7)) + 20000000;
                 switch (id.charAt(0)) {
-                    case '3', '5' -> person = new Person(id, id.substring(1, 7), "male");
-                    case '4', '6' -> person = new Person(id, id.substring(1, 7), "female");
+                    case '3', '5' -> person = new Person(id, date, "male");
+                    case '4', '6' -> person = new Person(id, date, "female");
                 }
             }
             return person;
