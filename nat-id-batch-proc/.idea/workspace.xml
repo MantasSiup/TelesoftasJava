@@ -114,4 +114,15 @@
     <MESSAGE value="Updated batch processing files" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated batch processing files" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controller.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
