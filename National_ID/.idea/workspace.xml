@@ -109,8 +109,8 @@
       <item itemvalue="Application.ValidateID" />
       <item itemvalue="JUnit.ValidateIDTest" />
       <item itemvalue="JUnit.Validation in National_ID" />
-      <item itemvalue="TestNG.ValidateIDTest" />
       <item itemvalue="JUnit.ValidateIDTest (1)" />
+      <item itemvalue="TestNG.ValidateIDTest" />
     </list>
     <recent_temporary>
       <list>
