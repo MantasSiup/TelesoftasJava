@@ -1,8 +1,9 @@
+package BatchProc;
+
 import Validation.Person;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.Locale;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
@@ -37,7 +38,7 @@ public class Utilities {
 
     public static ArrayList<Person> sorting(ArrayList<Person> people)
     {
-        ArrayList<Person> sortedList = people.stream().sorted(Comparator.comparing(d -> d.getId()))
+        ArrayList<Person> sortedList = people.stream().sorted(Comparator.comparing(Person::getId))
                 .collect(Collectors.toCollection(ArrayList::new));
         return sortedList;
     }
@@ -45,12 +46,12 @@ public class Utilities {
     {
 
         try {
-            ArrayList<Person> sortedList = new ArrayList<>();
+            ArrayList<Person> sortedList;
             if (sortingType.equals("asc")) {
-                sortedList = people.stream().sorted(Comparator.comparing(d -> d.getDate()))
+                sortedList = people.stream().sorted(Comparator.comparing(Person::getDate))
                         .collect(Collectors.toCollection(ArrayList::new));
             } else if (sortingType.equals("desc")) {
-                sortedList = people.stream().sorted(Comparator.comparing(d -> d.getDate(), Comparator.reverseOrder()))
+                sortedList = people.stream().sorted(Comparator.comparing(Person::getDate, Comparator.reverseOrder()))
                         .collect(Collectors.toCollection(ArrayList::new));
             }
             else
