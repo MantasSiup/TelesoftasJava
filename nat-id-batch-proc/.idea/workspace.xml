@@ -73,13 +73,15 @@
       <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\nat-id-batch-proc\src\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\nat-id-batch-proc\src\main\java" />
+      <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\nat-id-batch-proc\src\main" />
       <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\nat-id-batch-proc\src\lib" />
       <recent name="C:\Users\Drift\Documents\GitHub\TelesoftasJava\nat-id-batch-proc\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Controller" />
+      <option name="MAIN_CLASS_NAME" value="BatchProc.Controller" />
       <module name="nat-id-batch-proc" />
       <option name="PROGRAM_PARAMETERS" value="-i in.txt -f male" />
       <method v="2">

@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="Fixed main and added a new boolean for ID validation">
+    <list default="true" id="ebb54a45-d40d-4458-a670-4732f9c3b579" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/National_ID_jar2/Validation.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nat-id-batch-proc/.idea/compiler.xml" afterDir="false" />
