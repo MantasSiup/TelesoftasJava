@@ -1,9 +1,7 @@
-package com.Validation.RestNationalId.SingeId;
+package com.Validation.RestNationalId.IdValidations;
 
 import Validation.ValidateID;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class SingleIdValidation {
@@ -13,7 +11,6 @@ public class SingleIdValidation {
     {
         ValidateID validateID = new ValidateID();
         boolean isValid = validateID.idValidation(id);
-
         return String.format("Your id is: %s. This id is %s", id, isValid ? "valid" : "not valid");
     }
 }
