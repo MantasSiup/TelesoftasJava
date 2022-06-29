@@ -1,7 +1,5 @@
 package Validation;
 
-import java.time.LocalDateTime;
-
 public class ValidateID {
         public static void main(String[] args)
         {
