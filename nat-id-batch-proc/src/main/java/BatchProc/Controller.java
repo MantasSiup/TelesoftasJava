@@ -27,8 +27,8 @@ public class Controller implements Runnable{
     private String sortingType;
     @Override
     public void run() {
-        //Path path = Paths.get("Documents/GitHub/TelesoftasJava/nat-id-batch-proc/src/main/resources/"); for jar
-        Path path = Paths.get("src/main/resources/"); // for consoleapp
+        Path path = Paths.get("Documents/GitHub/TelesoftasJava/nat-id-batch-proc/src/main/resources/"); //for jar
+        //Path path = Paths.get("src/main/resources/"); // for consoleapp
             ArrayList<Person> people = InOutUtils.readFromTxt(path.toAbsolutePath() + "\\" + fileName);
 
             ArrayList<Person> modified = people;
